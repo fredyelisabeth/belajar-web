@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">WEBSITE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Program Studi">Program Studi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Dosen">Dosen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#content">Content</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <section id="home">
+    <div class="jumbotron mt-4 py-5 jumbotron-fluid">
+      <div class="container">
+        <img
+          src="assets/picture/logo.png"
+          alt=""
+          width="150px"
+          style="border-radius: 25px"
+        />
+            <h1 class="display-4 mt-3">Selamat Datang</h1>
+            <p class="lead mt-3">
+              SEKOLAH TINGGI ILMU KESEHATAN SANTA ELISABETH MEDAN.
+            </p>
+      </div>
+  </section>
+    </div>
+<section id="Program Studi">
+  <div class="container">
+    <h1 style="text-align: center;">Program Studi
+    </h1> <center>
+      <hr width="200px">
+    </center>
+    <div class="row">
+      <div class="col">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam aperiam quo nihil ducimus praesentium, est minima tempora minus porro delectus id recusandae a, velit iusto. Expedita nesciunt numquam quam.</p>
+      </div>
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum placeat iure qui delectus ex ratione, quam blanditiis amet iste, facere, dolorem harum ipsa necessitatibus eveniet quia ea accusantium eius quisquam!</p>
+      </div>
+      <div class="col">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit totam eligendi voluptates suscipit, deserunt eaque similique repellendus blanditiis corrupti unde nisi, eius eum odio beatae iure eveniet! Natus, debitis repellat?</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Dosen">
+  <div class="container">
+    <h1 class="text-center">Dosen</h1>
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1719937206498-b31844530a96?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1719937050814-72892488f741?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://images.unsplash.com/photo-1719937206168-f4c829152b91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="content">
+  <div class="container">
+    <h1 class="text-center">content</h1>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="name">Nama Lengkap</label>
+      <input type="text" class="form-control" id="name" placeholder="masukkan nama anda">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="masukkan email anda">
+    </div>
+
+
+    <div class="mb-3">
+      <label for="message" class="form-label">pesan</label>
+      <textarea placeholder="Maukkan Pesan anda"  class="form-control" id="pesan" rows="3"></textarea>
+    </div>
+    <button class="btn btn-primary">kirim pesan</button>
+  </div>
+</section>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
